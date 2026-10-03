@@ -82,7 +82,7 @@ import {
 import type { EntryRow } from '@/data/types'
 
 const meta = moduleMeta('stability')
-const columns = ["考察编号", "考察批号", "考察条件", "考察时间点", "检验项目", "考察结果", "考察人", "考察状态"]
+const columns = ["考察编号", "考察批号", "考察条件", "考察时间点", "检验项目", "考察结果", "污染瓶数", "考察人", "考察状态"]
 const actions = ["提交考察", "确认完成", "终止考察"]
 const statuses = ["待考察", "考察中", "已完成", "已终止"]
 const stats = [{"label": "待考察批次", "value": 0}, {"label": "考察中批次", "value": 0}, {"label": "已完成考察数", "value": 0}]
